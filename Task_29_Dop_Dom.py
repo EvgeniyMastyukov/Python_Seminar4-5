@@ -28,6 +28,6 @@ elif discrim == 0:
 elif discrim < 0:
     print("корней нет")
   
-print(discrim) 
+print(f'Дискриминант = {discrim}') 
 
 
