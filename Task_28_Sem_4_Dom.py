@@ -5,16 +5,19 @@
 
 num =  int(input('Введите число N: '))
 
-while num != 1:
-   if num%4 == 0:
-    print('да')
+while num > 1:
+   num = num/4
+   if num == 1:
+      print('да')
    else:
-    print('нет')
-    break    
-   num //= 4   
+      print('нет')
 
-
-   
-
+# while num != 1:
+#    if num%4 == 0:
+#     print('да')
+#    else:
+#     print('нет')
+#     break    
+#    num //= 4 
 
 
